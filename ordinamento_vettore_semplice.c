@@ -19,7 +19,10 @@ int main(){
     }while(N <= 0 || N > MAXINPUT);
 
     for(i=0;i<N;i++){
-        
+        printf("Inserisci valore %d",i+1);
+        scanf("%d",&INPUT[i]);
     }
+
+    //create a sort
 
 }
