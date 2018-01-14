@@ -26,12 +26,19 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceRoot}"
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/include/linux",
+                "${workspaceRoot}",
+                "/usr/include/c++/7.2/tr1"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/usr/include/linux",
                     "${workspaceRoot}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
